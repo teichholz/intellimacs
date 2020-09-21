@@ -35,3 +35,6 @@ vnoremap <leader>xU    U
 " Downcase region
 nnoremap <leader>xu    vu
 vnoremap <leader>xu    u
+
+nnoremap == :action ReformatCode<CR>
+vnoremap == :action ReformatCode<CR>

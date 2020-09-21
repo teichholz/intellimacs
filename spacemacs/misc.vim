@@ -12,6 +12,14 @@ vnoremap g;    :action JumpToLastChange<CR>
 nnoremap <leader>gd    :action GotoDeclaration<CR>
 vnoremap <leader>gd    <Esc>:action GotoDeclaration<CR>
 
+" Go to declaration
+nnoremap <leader>gu    :action ShowUsages<CR>
+vnoremap <leader>gu    <Esc>:action ShowUsages<CR>
+
+" Go to implementation
+nnoremap <leader>gD    :action GotoImplementation<CR>
+vnoremap <leader>gD    <Esc>:action GotoImplementation<CR>
+
 " Collapse all folds
 nnoremap zm    :action CollapseAllRegions<CR>
 vnoremap zm    :action CollapseAllRegions<CR>
